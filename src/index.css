@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('./assets/fonts/FutilePro.otf');
+    font-weight: normal; /* ou bold, bolder, etc. */
+    font-style: normal;  /* ou italic, oblique, etc. */
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 'border-box';
+    font-family: "MinhaFonte", cursive;
+    font-weight: 400;
+    color: '#00ff00';
+    font-style: normal;
+}
